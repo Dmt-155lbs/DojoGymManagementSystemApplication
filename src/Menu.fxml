@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.AmbientLight?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="application.MenuController">
+   <children>
+      <AnchorPane layoutX="6.0" layoutY="3.0" prefHeight="415.0" prefWidth="672.0">
+         <children>
+            <Label layoutX="246.0" layoutY="10.0" prefHeight="54.0" prefWidth="224.0" text="BIENVENIDO!!!">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Button layoutX="140.0" layoutY="112.0" mnemonicParsing="false" onAction="#showEstud" prefHeight="110.0" prefWidth="136.0" text="Estudiante" />
+            <Button layoutX="367.0" layoutY="115.0" mnemonicParsing="false" onAction="#ShowIns" prefHeight="111.0" prefWidth="137.0" text="Instructores " textAlignment="CENTER" textOverrun="CLIP" />
+            <Button layoutX="371.0" layoutY="258.0" mnemonicParsing="false" onAction="#showHora" prefHeight="111.0" prefWidth="137.0" text="   Horarios&#10;Disponibles " />
+            <Button layoutX="135.0" layoutY="260.0" mnemonicParsing="false" onAction="#ShowInf" prefHeight="112.0" prefWidth="138.0" text="     Ver&#10;Informes" />
+            <AmbientLight color="CHARTREUSE" layoutX="40.0" layoutY="48.0" lightOn="true" />
+            <Polygon fill="#6f7275" layoutX="42.0" layoutY="370.0" points="-48.0000114440918, 44.000030517578125, 58.41728210449219, 43.84649658203125, -50.00000762939453, -31.122802734375" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fill="#6f7275" layoutX="42.0" layoutY="31.0" points="-50.0, 40.0, 48.017005920410156, -35.999996185302734, -49.9999885559082, -35.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label layoutX="227.0" layoutY="41.0" prefHeight="54.0" prefWidth="224.0" text="Escoge una opción:">
+               <font>
+                  <Font name="Apple Chancery" size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Polygon fill="#6f7275" layoutX="632.0" layoutY="29.0" points="48.01702880859375, 56.972145080566406, 48.017005920410156, -35.999996185302734, -49.9999885559082, -35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="#6f7275" layoutX="625.0" layoutY="376.0" points="-48.0000114440918, 40.5, 55.5, 40.7916259765625, 55.5, -47.65350341796875" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

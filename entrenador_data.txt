@@ -1,0 +1,27 @@
+Nombre
+Daniel,
+Edad
+19,
+Especializacion
+SUUUUUU,
+Horario Laboral
+45h00-78h00
+
+Nombre
+Daniel,
+Edad
+19,
+Especializacion
+SUUUUUU,
+Horario Laboral
+45h00-78h00
+
+Nombre
+Daniel,
+Edad
+19,
+Especializacion
+SUUUUUU,
+Horario Laboral
+45h00-78h00
+
